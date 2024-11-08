@@ -17,7 +17,7 @@ public class TodoListTerminalView implements TodoListView {
         showMainMenu();
     }
 
-    public static void showMainMenu() {
+    public void showMainMenu() {
         // infinite loop so the program will always run
         boolean isRunning = true;
         while (isRunning) {
